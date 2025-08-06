@@ -14,16 +14,19 @@ A lightweight Streamlit app for exploring World Bank economic indicators—GDP, 
 
 ---
 
-## Run the app
+## 1. Run the app
 
-### 1. Streamlit Cloud (free)
+### Use the Streamlit app
+Open the app: https://economics-data-viewer.streamlit.app/ and follow the instructions there.
+
+### 2. Streamlit Cloud (free)
 
 1. Fork or clone this repository.  
 2. Sign in to [Streamlit Cloud](https://streamlit.io/cloud).  
 3. Click **New app** → select this repo and `streamlit_app.py` as the entry point.  
 4. Press **Deploy**. That’s it.
 
-### 2. Local machine
+### 3. Local machine
 
 ```bash
 git clone https://github.com/your-username/economics-data-viewer.git
