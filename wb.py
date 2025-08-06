@@ -11,6 +11,13 @@ st.set_page_config(
 )
 
 st.markdown("<h1 style='text-align: center; color: #2c3e50;'> Economics Data Viewer</h1>", unsafe_allow_html=True)
+
+st.markdown("""
+This is an app to help look at economic data simply and intuitively. You can search stuff like GDP, inflation, or population, pick the countries or regions you care about, and see how things change over time.
+No coding, no spreadsheets — just point, click, and explore.  
+Good if you're curious, need a quick visual, or just feel like messing around with some global stats. 😊
+""")
+
 @st.cache_data
 def load_ind():
     url="https://api.worldbank.org/v2/indicator?format=json&per_page=30000"
