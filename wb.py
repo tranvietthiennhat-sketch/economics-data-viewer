@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="📈",
 )
 
-st.markdown("<h1 style='text-align: center; color: #2c3e50;'> Economics Data Viewer</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #2c3e50;'> Economics Dashboard </h1>", unsafe_allow_html=True)
 
 st.markdown("""
 This is an app to help look at economic data simply and intuitively. You can search stuff like GDP, inflation, or population, pick the countries or regions you care about, and see how things change over time.
